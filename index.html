@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock, Paper, Scissors</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="shortcut icon" href="imgs/o.png" />
+    <link rel="shortcut icon" href="imgs/favicon.png" />
   </head>
   <body>
     <div class="container">
@@ -15,20 +15,23 @@
       <form action="">
         <div class="containerPlayers">
           <div class="player1 card">
-            <h2>Player Wins: 0</h2>
-            <div class="imgs"></div>
+            <h2>WINS: 0</h2>
+            <div class="imgs">
+              <img src="" alt="" class="p1Img" />
+            </div>
+            <h2>Player</h2>
             <fieldset>
               <legend>Select one</legend>
               <div>
-                <input type="radio" id="rock" name="selectGame" value="rock" />
+                <input type="radio" name="selectGame" id="rock" value="rock" />
                 <label for="rock">Rock</label>
               </div>
               <div>
                 <input
                   type="radio"
                   name="selectGame"
-                  value="paper"
                   id="paper"
+                  value="paper"
                 />
                 <label for="paper">Paper</label>
               </div>
@@ -44,43 +47,19 @@
             </fieldset>
           </div>
           <div class="player2 card">
-            <h2>Computer Wins: 0</h2>
-            <div class="imgs"></div>
-            <fieldset>
-              <legend>Select one</legend>
-              <div>
-                <input
-                  type="radio"
-                  id="rock1"
-                  name="selectGame1"
-                  value="rock"
-                />
-                <label for="rock">Rock</label>
-              </div>
-              <div>
-                <input
-                  type="radio"
-                  name="selectGame1"
-                  value="paper"
-                  id="paper1"
-                />
-                <label for="paper">Paper</label>
-              </div>
-              <div>
-                <input
-                  type="radio"
-                  name="selectGame1"
-                  id="scissors1"
-                  value="scissors"
-                />
-                <label for="scissors">Scissors</label>
-              </div>
-            </fieldset>
+            <h2>WINS: 0</h2>
+            <div class="imgs">
+              <img src="" alt="" class="p2Img" />
+            </div>
+            <h2>Computer</h2>
+            <div class="comments">
+              <h1>...</h1>
+            </div>
           </div>
         </div>
         <button>PLAY</button>
       </form>
-      <h2 class="winner">Winner: -</h2>
+      <h2 class="winner">Winner: ...</h2>
     </div>
     <script src="script.js"></script>
   </body>

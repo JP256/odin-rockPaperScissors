@@ -41,6 +41,7 @@ body {
   text-align: center;
 }
 fieldset {
+  border: 1px solid rgba(245, 245, 245, 0.6);
   border-radius: 5px;
   padding: 10px;
 }
@@ -66,7 +67,9 @@ button {
 
 button:hover {
   cursor: pointer;
+  background-color: rgba(245, 245, 245, 0.3);
 }
+
 button:focus {
   background-color: rgba(245, 245, 245, 0.6);
   color: rgba(25, 39, 52);
@@ -74,5 +77,13 @@ button:focus {
 
 .winner {
   text-align: center;
-  margin: 40px;
+  margin: 20px;
+}
+
+.p1Img,
+.p2Img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  display: none;
 }
