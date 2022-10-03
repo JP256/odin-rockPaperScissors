@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500&family=Oswald:wght@200;300&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(25, 39, 52);
+  color: rgba(245, 245, 245, 0.6);
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+.container {
+  margin: 5%;
+  border: 3px solid rgba(245, 245, 245, 0.6);
+}
+.welcome {
+  font-size: 50px;
+}
+.container h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+.containerPlayers {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.containerPlayers .imgs {
+  width: 170px;
+  height: 200px;
+  margin-bottom: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.6);
+  border-radius: 5px;
+}
+.player1 h2,
+.player2 h2 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+fieldset {
+  border-radius: 5px;
+  padding: 10px;
+}
+input[type="radio"] {
+  accent-color: rgba(245, 245, 245, 0.6);
+}
+.winner {
+  text-align: center;
+  margin: 40px;
+}
