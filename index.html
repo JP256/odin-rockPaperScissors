@@ -12,61 +12,74 @@
     <div class="container">
       <h1 class="welcome">Welcome to</h1>
       <h1>Rock, Paper, and Scissors</h1>
-      <div class="containerPlayers">
-        <div class="player1 card">
-          <h2>Player Wins: 0</h2>
-          <div class="imgs"></div>
-          <fieldset>
-            <legend>Select one</legend>
-            <div>
-              <input type="radio" id="rock" name="selectGame" value="rock" />
-              <label for="rock">Rock</label>
-            </div>
-            <div>
-              <input type="radio" name="selectGame" value="paper" id="paper" />
-              <label for="paper">Paper</label>
-            </div>
-            <div>
-              <input
-                type="radio"
-                name="selectGame"
-                id="scissors"
-                value="scissors"
-              />
-              <label for="scissors">Scissors</label>
-            </div>
-          </fieldset>
+      <form action="">
+        <div class="containerPlayers">
+          <div class="player1 card">
+            <h2>Player Wins: 0</h2>
+            <div class="imgs"></div>
+            <fieldset>
+              <legend>Select one</legend>
+              <div>
+                <input type="radio" id="rock" name="selectGame" value="rock" />
+                <label for="rock">Rock</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="selectGame"
+                  value="paper"
+                  id="paper"
+                />
+                <label for="paper">Paper</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="selectGame"
+                  id="scissors"
+                  value="scissors"
+                />
+                <label for="scissors">Scissors</label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="player2 card">
+            <h2>Computer Wins: 0</h2>
+            <div class="imgs"></div>
+            <fieldset>
+              <legend>Select one</legend>
+              <div>
+                <input
+                  type="radio"
+                  id="rock1"
+                  name="selectGame1"
+                  value="rock"
+                />
+                <label for="rock">Rock</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="selectGame1"
+                  value="paper"
+                  id="paper1"
+                />
+                <label for="paper">Paper</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="selectGame1"
+                  id="scissors1"
+                  value="scissors"
+                />
+                <label for="scissors">Scissors</label>
+              </div>
+            </fieldset>
+          </div>
         </div>
-        <div class="player2 card">
-          <h2>Computer Wins: 0</h2>
-          <div class="imgs"></div>
-          <fieldset>
-            <legend>Select one</legend>
-            <div>
-              <input type="radio" id="rock1" name="selectGame1" value="rock" />
-              <label for="rock">Rock</label>
-            </div>
-            <div>
-              <input
-                type="radio"
-                name="selectGame1"
-                value="paper"
-                id="paper1"
-              />
-              <label for="paper">Paper</label>
-            </div>
-            <div>
-              <input
-                type="radio"
-                name="selectGame1"
-                id="scissors1"
-                value="scissors"
-              />
-              <label for="scissors">Scissors</label>
-            </div>
-          </fieldset>
-        </div>
-      </div>
+        <button>PLAY</button>
+      </form>
       <h2 class="winner">Winner: -</h2>
     </div>
     <script src="script.js"></script>

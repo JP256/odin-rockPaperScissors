@@ -1,0 +1,3 @@
+let userSelection;
+let computerSelection;
+

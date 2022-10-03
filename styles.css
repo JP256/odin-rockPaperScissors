@@ -47,6 +47,31 @@ fieldset {
 input[type="radio"] {
   accent-color: rgba(245, 245, 245, 0.6);
 }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid rgba(245, 245, 245, 0.6);
+  color: rgba(245, 245, 245, 0.6);
+  width: 150px;
+  border-radius: 5px;
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+button:focus {
+  background-color: rgba(245, 245, 245, 0.6);
+  color: rgba(25, 39, 52);
+}
+
 .winner {
   text-align: center;
   margin: 40px;
